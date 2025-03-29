@@ -1,16 +1,14 @@
 {
-  "name": "sit737-2025-prac4p",
+  "name": "sit737-2025-prac4c",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Enhanced calculator microservice with advanced operations",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.21.2",
-    "winston": "^3.17.0"
+    "express": "^4.18.2",
+    "winston": "^3.11.0"
   }
 }
