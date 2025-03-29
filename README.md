@@ -38,5 +38,5 @@ Use curl or Postman to test the endpoints:
 1. Clone repository:
 
 ```bash
-git clone https://github.com/yourusername/sit737-2025-prac4c.git
+git clone https://github.com/ishini98/sit737-2025-prac4c.git
 ```
