@@ -1,8 +1,8 @@
 {
   "name": "sit737-2025-prac4c",
   "version": "1.0.0",
-  "description": "Enhanced calculator microservice with advanced operations",
-  "main": "server.js",
+  "description": "Enhanced Calculator Microservice for SIT323/SIT737 4.2C",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "winston": "^3.11.0"
-  }
+  },
+  "author": "Your Name",
+  "license": "MIT"
 }
