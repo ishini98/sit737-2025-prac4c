@@ -69,7 +69,7 @@ process.on('uncaughtException', (error) => {
 });
 
 const app = express();
-const PORT = process.env.PORT || 4000; // Updated port
+const PORT = process.env.PORT || 3000; // Updated port
 
 // Middleware
 app.use(express.json());

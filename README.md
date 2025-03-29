@@ -34,5 +34,5 @@ Logs are stored in the `logs` directory:
 Use curl or Postman to test the endpoints:
 
 ```bash
-curl "http://localhost:4000/add?num1=5&num2=3"
+curl "http://localhost:3000/add?num1=5&num2=3"
 ```
