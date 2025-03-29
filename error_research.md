@@ -1,15 +1,19 @@
-# Error Handling Strategies in Microservices
+# Error Handling Strategies Research
 
 ## 1. Circuit Breaker Pattern
 
-**Implementation**: Uses libraries like `opossum`  
-**Purpose**: Prevents cascading failures when services are unavailable  
-**Example**:
+**Implementation**:
 
 ```javascript
 const CircuitBreaker = require("opossum");
-const breaker = new CircuitBreaker(apiCall, {
-  timeout: 3000,
-  errorThresholdPercentage: 50,
-});
+
+const options = {
+  timeout: 3000, // Fail after 3 seconds
+  errorThresholdPercentage: 50, // Trip at 50% failure rate
+  resetTimeout: 30000, // Reset after 30 seconds
+};
+
+const breaker = new CircuitBreaker(apiCallFunction, options);
+
+breaker.fallback(() => ({ error: "Service unavailable" }));
 ```

@@ -2,7 +2,7 @@
   "name": "sit737-2025-prac4c",
   "version": "1.0.0",
   "description": "Enhanced calculator microservice with advanced operations",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"

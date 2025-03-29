@@ -33,6 +33,10 @@ Logs are stored in the `logs` directory:
 
 Use curl or Postman to test the endpoints:
 
+## Setup Instructions
+
+1. Clone repository:
+
 ```bash
-curl "http://localhost:3000/add?num1=5&num2=3"
+git clone https://github.com/yourusername/sit737-2025-prac4c.git
 ```
