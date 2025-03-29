@@ -1,0 +1,14 @@
+{"level":"error","message":"Missing parameters","service":"calculator-microservice","timestamp":"2025-03-29T03:49:25.544Z"}
+{"level":"error","message":"Division by zero attempted","service":"calculator-microservice","timestamp":"2025-03-29T04:20:41.023Z"}
+{"level":"error","message":"Division by zero attempted","service":"calculator-microservice","timestamp":"2025-03-29T04:24:28.532Z"}
+{"level":"error","message":"Missing parameters","service":"calculator-microservice","timestamp":"2025-03-29T04:42:00.243Z"}
+{"level":"error","message":"Invalid number parameters","service":"calculator-microservice","timestamp":"2025-03-29T04:42:00.327Z"}
+{"level":"error","message":"Division by zero attempted","service":"calculator-microservice","timestamp":"2025-03-29T04:42:05.057Z"}
+{"level":"error","message":"Invalid number parameters","service":"calculator-microservice","timestamp":"2025-03-29T04:48:53.072Z"}
+{"level":"error","message":"Invalid number parameters","service":"calculator-microservice","timestamp":"2025-03-29T04:59:30.604Z"}
+{"level":"error","message":"Division by zero attempted","service":"calculator-microservice","timestamp":"2025-03-29T04:59:48.353Z"}
+{"expected":"Both num1 and num2 required","level":"error","message":"Missing parameters","received":{"num1":"5"},"service":"calculator-microservice","timestamp":"2025-03-29 16:41:12"}
+{"expected":"Valid numbers","level":"error","message":"Invalid number parameters","received":{"num1":"abc","num2":"2"},"service":"calculator-microservice","timestamp":"2025-03-29 16:41:13"}
+{"expected":"Both num1 and num2 required","level":"error","message":"Missing parameters","received":{"num1":"5"},"service":"calculator-microservice","timestamp":"2025-03-29 16:44:52"}
+{"expected":"Valid numbers","level":"error","message":"Invalid number parameters","received":{"num1":"abc","num2":"2"},"service":"calculator-microservice","timestamp":"2025-03-29 16:45:03"}
+{"level":"error","message":"Division by zero attempted","num1":10,"num2":0,"service":"calculator-microservice","timestamp":"2025-03-29 16:45:13"}
